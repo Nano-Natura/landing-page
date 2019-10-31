@@ -17,6 +17,16 @@ body {
         color: $primary;
     }
 
+    .btn-get-formula {
+        border: 1px solid white;
+        border-radius: 10px;
+
+        &:hover {
+            background-color: white;
+            color: $primary !important;
+        }
+    }
+
     .hero {
         background: black
             url("https://images.unsplash.com/photo-1532170579297-281918c8ae72")
@@ -77,5 +87,9 @@ body {
     .py-5 {
         padding-bottom: 5rem;
         padding-top: 5rem;
+    }
+
+    .navbar-toggler-icon.icon-bar {
+        background-color: white !important;
     }
 }
