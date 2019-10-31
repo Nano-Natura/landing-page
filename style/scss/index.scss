@@ -7,6 +7,7 @@ body {
 
     .bg-section {
         background-color: $primary;
+        padding: 5rem 0;
     }
 
     .bg-ingredient {
@@ -46,6 +47,10 @@ body {
             width: 20rem;
             display: inline-block;
             color: black;
+        }
+
+        @media screen and (max-width: 415px) {
+            padding: 0;
         }
     }
 

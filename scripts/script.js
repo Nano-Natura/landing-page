@@ -43,7 +43,7 @@ window.onscroll = function() {
             navlink[i].classList.add("text-white");
             navlink[i].classList.remove("onScrollNav");
         }
-        
+
         navbarBrand[0].classList.add("text-white");
     } else {
         navbar.style.backgroundColor = "white";
