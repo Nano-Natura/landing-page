@@ -1,69 +1,81 @@
 @import "colors";
+@import "font";
 
-html, body {
-  height: 100%;
+html,
+body {
+    height: 100%;
 
-  .bg-section {
-    background-color: $primary;
-  }
-
-  .bg-ingredient {
-    background-color: $alternative;
-  }
-
-  .hero {
-    background: black url("https://images.unsplash.com/photo-1532170579297-281918c8ae72") no-repeat top right;
-    min-height: 100%;
-    background-size: contain;
-  }
-
-  .scrolling-wrapper {
-    overflow-y: scroll;
-    white-space: nowrap;
-    padding: 0 4rem;
-
-    .card {
-      white-space: normal;
-      margin: 20px;
-      width: 20rem;
-      display: inline-block;
-      color: black;
+    .bg-section {
+        background-color: $primary;
     }
-  }
 
-  .mt-6 {
-    margin-top: 6rem;
-  }
-
-  // Override
-  .bg-light {
-    background-color: transparent
-  }
-
-  .bg-white {
-    background-color: white;
-  }
-
-  .bg-black {
-    background-color: black !important;
-  }
-
-  .btn-primary {
-    background-color: $secondary;
-    border: none;
-    border-radius: 50px;
-
-    &:hover {
-      background-color: $primary;
+    .bg-ingredient {
+        background-color: $alternative;
     }
-  }
 
-  .fixed-top {
-    transition: 0.3s bottom !important;
-  }
+    .h5-color {
+        color: $primary;
+    }
 
-  .py-5 {
-    padding-bottom: 5rem !important;
-    padding-top: 5rem !important;
-  }
+    .hero {
+        background: black
+            url("https://images.unsplash.com/photo-1532170579297-281918c8ae72")
+            no-repeat top right;
+        min-height: 100%;
+        background-size: contain;
+    }
+
+    .scrolling-wrapper {
+        overflow-y: scroll;
+        white-space: nowrap;
+        padding: 0 4rem;
+
+        .card {
+            white-space: normal;
+            margin: 20px;
+            width: 20rem;
+            display: inline-block;
+            color: black;
+        }
+    }
+
+    .mt-6 {
+        margin-top: 6rem;
+    }
+
+    .btn-outline-primary {
+        border-color: white;
+        color: white;
+        border-radius: 20px;
+
+        &:hover {
+            background-color: white;
+            color: $primary;
+            border-color: white;
+        }
+    }
+
+    .onScrollNav {
+        color: $primary !important;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    // Override
+    .btn-primary {
+        background-color: $secondary;
+        border: none;
+        border-radius: 50px;
+
+        &:hover {
+            background-color: $primary;
+        }
+    }
+
+    .py-5 {
+        padding-bottom: 5rem;
+        padding-top: 5rem;
+    }
 }
