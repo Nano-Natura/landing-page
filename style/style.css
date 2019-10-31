@@ -1,50 +1,49 @@
 html, body {
   height: 100%;
 }
-
-.btn-primary {
-  background-color: #87C540;
-  border: none;
-  border-radius: 50px;
-}
-.btn-primary:hover {
+html .bg-section, body .bg-section {
   background-color: #529547;
 }
-
-.bg-section {
-  background-color: #529547;
+html .bg-ingredient, body .bg-ingredient {
+  background-color: #1C676B;
 }
-
-.bg-ingredient {
-  background-color: #87C540;
-}
-
-.bg-light {
-  background-color: transparent !important;
-}
-
-.hero {
+html .hero, body .hero {
   background: black url("https://images.unsplash.com/photo-1532170579297-281918c8ae72") no-repeat top right;
   min-height: 100%;
   background-size: contain;
 }
-
-.py-5 {
-  padding-bottom: 5rem !important;
-  padding-top: 5rem !important;
-}
-
-.scrolling-wrapper {
+html .scrolling-wrapper, body .scrolling-wrapper {
   overflow-y: scroll;
   white-space: nowrap;
   padding: 0 4rem;
 }
-.scrolling-wrapper .card {
+html .scrolling-wrapper .card, body .scrolling-wrapper .card {
   white-space: normal;
   margin: 20px;
   width: 20rem;
   display: inline-block;
   color: black;
+}
+html .mt-6, body .mt-6 {
+  margin-top: 6rem !important;
+}
+html .bg-light, body .bg-light {
+  background-color: transparent !important;
+}
+html .btn-primary, body .btn-primary {
+  background-color: #87C540;
+  border: none;
+  border-radius: 50px;
+}
+html .btn-primary:hover, body .btn-primary:hover {
+  background-color: #529547;
+}
+html .fixed-top, body .fixed-top {
+  transition: 0.3s bottom !important;
+}
+html .py-5, body .py-5 {
+  padding-bottom: 5rem !important;
+  padding-top: 5rem !important;
 }
 
 /*# sourceMappingURL=style.css.map */

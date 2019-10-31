@@ -2,51 +2,68 @@
 
 html, body {
   height: 100%;
-}
 
-.btn-primary {
-  background-color: $secondary;
-  border: none;
-  border-radius: 50px;
-
-  &:hover {
+  .bg-section {
     background-color: $primary;
   }
-}
 
-.bg-section {
-  background-color: $primary;
-}
+  .bg-ingredient {
+    background-color: $alternative;
+  }
 
-.bg-ingredient {
-  background-color: $secondary;
-}
+  .hero {
+    background: black url("https://images.unsplash.com/photo-1532170579297-281918c8ae72") no-repeat top right;
+    min-height: 100%;
+    background-size: contain;
+  }
 
-.bg-light {
-  background-color: transparent !important;
-}
+  .scrolling-wrapper {
+    overflow-y: scroll;
+    white-space: nowrap;
+    padding: 0 4rem;
 
-.hero {
-  background: black url("https://images.unsplash.com/photo-1532170579297-281918c8ae72") no-repeat top right;
-  min-height: 100%;
-  background-size: contain;
-}
+    .card {
+      white-space: normal;
+      margin: 20px;
+      width: 20rem;
+      display: inline-block;
+      color: black;
+    }
+  }
 
-.py-5 {
-  padding-bottom: 5rem !important;
-  padding-top: 5rem !important;
-}
+  .mt-6 {
+    margin-top: 6rem;
+  }
 
-.scrolling-wrapper {
-  overflow-y: scroll;
-  white-space: nowrap;
-  padding: 0 4rem;
+  // Override
+  .bg-light {
+    background-color: transparent
+  }
 
-  .card {
-    white-space: normal;
-    margin: 20px;
-    width: 20rem;
-    display: inline-block;
-    color: black;
+  .bg-white {
+    background-color: white;
+  }
+
+  .bg-black {
+    background-color: black !important;
+  }
+
+  .btn-primary {
+    background-color: $secondary;
+    border: none;
+    border-radius: 50px;
+
+    &:hover {
+      background-color: $primary;
+    }
+  }
+
+  .fixed-top {
+    transition: 0.3s bottom !important;
+  }
+
+  .py-5 {
+    padding-bottom: 5rem !important;
+    padding-top: 5rem !important;
   }
 }
