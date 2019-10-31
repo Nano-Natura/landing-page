@@ -20,7 +20,7 @@ window.onscroll = function() {
         navbarBrand[0].classList.add("text-white");
     } else {
         navbar.style.backgroundColor = "white";
-        navbar.style.borderBottom = "1px solid lightgrey";
+        navbar.style.borderBottom = "1px solid #f7f7f7";
 
         for (var i = 0; i < navlink.length; i++) {
             navlink[i].classList.remove("text-white");
