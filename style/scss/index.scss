@@ -1,5 +1,9 @@
 @import "colors";
 
+html, body {
+  height: 100%;
+}
+
 .btn-primary {
   background-color: $secondary;
   border: none;
@@ -18,7 +22,31 @@
   background-color: $secondary;
 }
 
+.bg-light {
+  background-color: transparent !important;
+}
+
+.hero {
+  background: black url("https://images.unsplash.com/photo-1532170579297-281918c8ae72") no-repeat top right;
+  min-height: 100%;
+  background-size: contain;
+}
+
 .py-5 {
   padding-bottom: 5rem !important;
   padding-top: 5rem !important;
+}
+
+.scrolling-wrapper {
+  overflow-y: scroll;
+  white-space: nowrap;
+  padding: 0 4rem;
+
+  .card {
+    white-space: normal;
+    margin: 20px;
+    width: 20rem;
+    display: inline-block;
+    color: black;
+  }
 }
