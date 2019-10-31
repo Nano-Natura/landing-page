@@ -1,0 +1,24 @@
+@import "colors";
+
+.btn-primary {
+  background-color: $secondary;
+  border: none;
+  border-radius: 50px;
+
+  &:hover {
+    background-color: $primary;
+  }
+}
+
+.bg-section {
+  background-color: $primary;
+}
+
+.bg-ingredient {
+  background-color: $secondary;
+}
+
+.py-5 {
+  padding-bottom: 5rem !important;
+  padding-top: 5rem !important;
+}

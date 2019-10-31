@@ -1,0 +1,23 @@
+.btn-primary {
+  background-color: #87C540;
+  border: none;
+  border-radius: 50px;
+}
+.btn-primary:hover {
+  background-color: #529547;
+}
+
+.bg-section {
+  background-color: #529547;
+}
+
+.bg-ingredient {
+  background-color: #87C540;
+}
+
+.py-5 {
+  padding-bottom: 5rem !important;
+  padding-top: 5rem !important;
+}
+
+/*# sourceMappingURL=style.css.map */
