@@ -17,10 +17,10 @@ $ live-server --watch=PATH
 ```
 
 ### Sass Watch
-this project using SCSS and you need to start your Scss server for watching and compiling to css
+this project using SCSS and you need to start your SCSS server for watching and compiling to css
 
 ```
-$ sass --watch --no-source-map --styled compressed style/scss/indes.scss style/style.css
+$ sass --watch --no-source-map --styled compressed style/scss/index.scss style/style.css
 ```
 
 ### Prettier

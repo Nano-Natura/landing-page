@@ -41,6 +41,18 @@ body {
         white-space: nowrap;
         padding: 0 4rem;
 
+        @media screen and (max-width: 1440px) {
+            padding: 0 9rem;
+        }
+
+        @media screen and (max-width: 1360px){
+            padding: 0 7rem;
+        }
+
+        @media screen and (max-width: 1280px) {
+            padding: 0 4rem;
+        }
+
         .card {
             white-space: normal;
             margin: 20px;
