@@ -38,10 +38,9 @@ window.onscroll = function() {
         navbar.style.borderBottom = "none";
         navbar.classList.add("navbar-dark");
         navbar.classList.remove("navbar-light");
-        document.getElementById('productWrapper').style.opacity = "0"
-        document.getElementById('logo').src = "assets/images/Panel-2.png"
-    
-    
+        document.getElementById("productWrapper").style.opacity = "0";
+        document.getElementById("logo").src = "assets/images/Panel-2.png";
+
         for (var i = 0; i < navlink.length; i++) {
             navlink[i].classList.add("text-white");
             navlink[i].classList.remove("onScrollNav");
@@ -53,9 +52,9 @@ window.onscroll = function() {
         navbar.style.borderBottom = "1px solid #f7f7f7";
         navbar.classList.remove("navbar-dark");
         navbar.classList.add("navbar-light");
-        document.getElementById('productWrapper').style.opacity = "1";
-        document.getElementById('logo').src = "assets/images/Panel-3.png"
-    
+        document.getElementById("productWrapper").style.opacity = "1";
+        document.getElementById("logo").src = "assets/images/Panel-3.png";
+
         for (var i = 0; i < navlink.length; i++) {
             navlink[i].classList.remove("text-white");
             navlink[i].classList.add("onScrollNav");
