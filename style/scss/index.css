@@ -60,6 +60,12 @@ body .hero {
   min-height: 100%;
   background-size: contain;
 }
+html .products-wrapper,
+body .products-wrapper {
+  margin-top: -100px;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+}
 html .scrolling-wrapper,
 body .scrolling-wrapper {
   overflow-y: scroll;
@@ -91,6 +97,7 @@ body .scrolling-wrapper .card {
   width: 20rem;
   display: inline-block;
   color: black;
+  box-shadow: 0 8px 10px -10px black;
 }
 @media screen and (max-width: 415px) {
   html .scrolling-wrapper,
