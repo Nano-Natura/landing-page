@@ -78,3 +78,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 $(".carousel").carousel({
     interval: 3000
 });
+
+function openTypeForm(url) {
+    window.open(url, "_blank");
+}
