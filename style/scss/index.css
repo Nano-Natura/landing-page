@@ -105,9 +105,17 @@ body .scrolling-wrapper {
     padding: 0;
   }
 }
+html .navbar,
+body .navbar {
+  transition: ease-in-out 0.3s;
+}
+html .logo-brand,
+body .logo-brand {
+  margin-left: -15px;
+}
 html .mt-6,
 body .mt-6 {
-  margin-top: 6rem;
+  margin-top: 8rem;
 }
 html .btn-outline-primary,
 body .btn-outline-primary {
@@ -123,7 +131,7 @@ body .btn-outline-primary:hover {
 }
 html .onScrollNav,
 body .onScrollNav {
-  color: #529547 !important;
+  color: black !important;
 }
 html .onScrollNav:hover,
 body .onScrollNav:hover {
