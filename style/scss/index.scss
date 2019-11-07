@@ -28,7 +28,35 @@ body {
 
         &:hover {
             background-color: white;
-            color: $primary !important;
+            color: $alternative !important;
+        }
+    }
+
+    .btn-natura {
+        border-radius: 50px;
+        border: 1px solid white;
+        color: white;
+
+        &:hover {
+            background-color: $secondary;
+        }
+
+        &:checked {
+            background-color: black;
+        }
+    }
+
+    .btn-natura-secondary {
+        border-radius: 50px;
+        border: 1px solid white;
+        color: white;
+
+        &:hover {
+            background-color: $secondary;
+        }
+
+        &:checked {
+            background-color: black;
         }
     }
 
@@ -84,7 +112,7 @@ body {
     }
 
     .mt-6 {
-        margin-top: 8rem;
+        margin-top: 10rem;
     }
 
     .btn-outline-primary {
