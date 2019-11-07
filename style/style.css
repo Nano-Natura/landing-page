@@ -60,7 +60,7 @@ body .h5-color {
 html .btn-get-formula,
 body .btn-get-formula {
   border: 1px solid white;
-  border-radius: 10px;
+  border-radius: 50px;
 }
 html .btn-get-formula:hover,
 body .btn-get-formula:hover {
