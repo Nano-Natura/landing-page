@@ -15,7 +15,12 @@ body {
     }
 
     .bg-promise {
-        background: red;
+        background: $third;
+        padding: 8rem 0;
+    }
+
+    .icon-fa {
+        font-size: 52px;
     }
 
     .h5-color {
@@ -40,23 +45,17 @@ body {
         &:hover {
             background-color: $secondary;
         }
-
-        &:checked {
-            background-color: black;
-        }
     }
 
     .btn-natura-secondary {
         border-radius: 50px;
         border: 1px solid white;
+        background-color: $primary;
         color: white;
 
         &:hover {
-            background-color: $secondary;
-        }
-
-        &:checked {
-            background-color: black;
+            background-color: $alternative;
+            color: white;
         }
     }
 

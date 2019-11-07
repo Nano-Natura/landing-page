@@ -46,7 +46,12 @@ body .bg-ingredient {
 }
 html .bg-promise,
 body .bg-promise {
-  background: red;
+  background: #6cc4d4;
+  padding: 8rem 0;
+}
+html .icon-fa,
+body .icon-fa {
+  font-size: 52px;
 }
 html .h5-color,
 body .h5-color {
@@ -72,23 +77,17 @@ html .btn-natura:hover,
 body .btn-natura:hover {
   background-color: #b1d5db;
 }
-html .btn-natura:checked,
-body .btn-natura:checked {
-  background-color: black;
-}
 html .btn-natura-secondary,
 body .btn-natura-secondary {
   border-radius: 50px;
   border: 1px solid white;
+  background-color: #2b4e54;
   color: white;
 }
 html .btn-natura-secondary:hover,
 body .btn-natura-secondary:hover {
-  background-color: #b1d5db;
-}
-html .btn-natura-secondary:checked,
-body .btn-natura-secondary:checked {
-  background-color: black;
+  background-color: #445254;
+  color: white;
 }
 html .hero,
 body .hero {
