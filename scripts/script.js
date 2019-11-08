@@ -14,18 +14,20 @@ function onHamburgerIconClick(state) {
         navlink[i].classList.remove("text-white");
         navlink[i].style.color = "black";
 
-        if (document.documentElement.scrollTop === 0) {
+        if (document.documentElement.scrollTop < 50) {
             if (!isClicked) {
                 navbar.style.backgroundColor = "transparent";
                 navbarBrand[0].classList.add("text-white");
                 navbar.classList.add("navbar-dark");
                 navbar.classList.remove("navbar-light");
+                document.getElementById("logo").src = "assets/images/Panel-2.png";
             } else {
                 navbar.classList.remove("navbar-dark");
                 navbar.classList.add("navbar-light");
                 navbar.style.backgroundColor = "white";
                 navbarBrand[0].classList.remove("text-white");
                 navbarBrand[0].style.color = "black";
+                document.getElementById("logo").src = "assets/images/Panel-3.png";
             }
         }
     }

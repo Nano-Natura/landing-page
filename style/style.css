@@ -91,7 +91,7 @@ body .btn-natura-secondary:hover {
 }
 html .hero,
 body .hero {
-  background: black url("/assets/images/hero.jpg") no-repeat;
+  background: black url("/assets/images/hero.jpg") no-repeat center;
   min-height: 100%;
   background-size: cover;
 }
@@ -151,6 +151,12 @@ body .logo-brand {
 html .mt-6,
 body .mt-6 {
   margin-top: 10rem;
+}
+@media screen and (max-width: 414px) {
+  html .mt-6,
+body .mt-6 {
+    margin-top: 5rem;
+  }
 }
 html .btn-outline-primary,
 body .btn-outline-primary {
